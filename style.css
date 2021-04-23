@@ -1,0 +1,20 @@
+.spiderman {
+    position: relative;
+    transform-origin: 50% 0;
+    animation: moveIt 4s ease-in-out infinite;
+    text-align: center;
+}
+
+
+@keyframes moveIt {
+    0%, 100% {
+        transform: rotate(75deg);
+    }
+    50% {
+        transform: rotate(-55deg);
+    }
+
+}
+img{
+    width:300px; height:300px;
+}
